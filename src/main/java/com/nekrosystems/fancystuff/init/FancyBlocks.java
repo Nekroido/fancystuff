@@ -32,7 +32,7 @@ public class FancyBlocks {
 				.setLightOpacity(0)
 				.setCreativeTab(FancyStuff.creativeTab);
 
-		rope.setBlockBounds(0.25f, 0f, 0.25f, 0.75f, 1f, 0.75f);
+		rope.setBlockBounds(0.325f, 0f, 0.325f, 0.675f, 1f, 0.675f);
 	}
 
 	public static void register() {

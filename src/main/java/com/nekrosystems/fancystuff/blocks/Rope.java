@@ -9,6 +9,7 @@ import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyBool;
 import net.minecraft.block.state.BlockState;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.BlockPos;
 import net.minecraft.world.IBlockAccess;
@@ -33,6 +34,11 @@ public class Rope extends BlockTransparent {
 
 	public boolean isFullCube() {
 		return false;
+	}
+	
+	@Override
+	public boolean isLadder(IBlockAccess world, BlockPos pos, EntityLivingBase entity) {
+		return true;
 	}
 
 	/**
