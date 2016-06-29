@@ -1,0 +1,16 @@
+[
+{
+  "modid": "nkrdfsm",
+  "name": "Nekroido's Fancy Stuff Mod",
+  "description": "Some fancy stuff for Minecraft.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Nekroido"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

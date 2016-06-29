@@ -1,0 +1,4 @@
+{
+   "dig.chain": { "category": "master", "sounds": [{ "name": "chain", "stream": false }]},
+   "step.chain": { "category": "master", "sounds": [{ "name": "chain", "stream": false }]}
+}
