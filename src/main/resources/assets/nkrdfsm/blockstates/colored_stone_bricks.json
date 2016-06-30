@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "color=black": { "model": "nkrdfsm:colored_stone_bricks/black" },
+        "color=blue": { "model": "nkrdfsm:colored_stone_bricks/blue" },
+        "color=brown": { "model": "nkrdfsm:colored_stone_bricks/brown" },
+        "color=cyan": { "model": "nkrdfsm:colored_stone_bricks/cyan" },
+        "color=gray": { "model": "nkrdfsm:colored_stone_bricks/gray" },
+        "color=green": { "model": "nkrdfsm:colored_stone_bricks/green" },
+        "color=light_blue": { "model": "nkrdfsm:colored_stone_bricks/lightBlue" },
+        "color=lime": { "model": "nkrdfsm:colored_stone_bricks/lime" },
+        "color=magenta": { "model": "nkrdfsm:colored_stone_bricks/magenta" },
+        "color=orange": { "model": "nkrdfsm:colored_stone_bricks/orange" },
+        "color=pink": { "model": "nkrdfsm:colored_stone_bricks/pink" },
+        "color=purple": { "model": "nkrdfsm:colored_stone_bricks/purple" },
+        "color=red": { "model": "nkrdfsm:colored_stone_bricks/red" },
+        "color=silver": { "model": "nkrdfsm:colored_stone_bricks/silver" },
+        "color=white": { "model": "nkrdfsm:colored_stone_bricks/white" },
+        "color=yellow": { "model": "nkrdfsm:colored_stone_bricks/yellow" }
+    }
+}

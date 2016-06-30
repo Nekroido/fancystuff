@@ -1,10 +1,12 @@
 package com.nekrosystems.fancystuff;
 
+import com.nekrosystems.fancystuff.events.MobDropsHandler;
 import com.nekrosystems.fancystuff.init.Crafting;
 import com.nekrosystems.fancystuff.init.FancyBlocks;
 import com.nekrosystems.fancystuff.init.FancyItems;
 import com.nekrosystems.fancystuff.proxy.CommonProxy;
 
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -36,6 +38,6 @@ public class FancyStuff {
 
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
-
+		MinecraftForge.EVENT_BUS.register(new MobDropsHandler());
 	}
 }

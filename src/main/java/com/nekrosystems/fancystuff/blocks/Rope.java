@@ -1,5 +1,6 @@
 package com.nekrosystems.fancystuff.blocks;
 
+import com.nekrosystems.fancystuff.FancyMaterial;
 import com.nekrosystems.fancystuff.init.helpers.BlockTransparent;
 
 import net.minecraft.block.Block;
@@ -18,8 +19,15 @@ public class Rope extends BlockTransparent {
 	public static final PropertyBool UP = PropertyBool.create("up");
 	public static final PropertyBool DOWN = PropertyBool.create("down");
 
-	public Rope(Material material) {
-		super(material);
+	public Rope(String name) {
+		super(FancyMaterial.rope);
+		
+		this.setUnlocalizedName("rope");
+		this.setHardness(.2f);
+		this.setResistance(10f);
+		this.setLightOpacity(0);
+		
+		this.setBlockBounds(0.325f, 0f, 0.325f, 0.675f, 1f, 0.675f);
 	}
 	
 	public Rope(Material material, MapColor mapColor) {

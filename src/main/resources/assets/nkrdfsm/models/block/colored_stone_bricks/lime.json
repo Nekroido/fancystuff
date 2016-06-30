@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "nkrdfsm:blocks/stonebrick_colored_lime"
+    }
+}
