@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "color=black": { "model": "nkrdfsm:colored_lamp/black" },
+        "color=blue": { "model": "nkrdfsm:colored_lamp/blue" },
+        "color=brown": { "model": "nkrdfsm:colored_lamp/brown" },
+        "color=cyan": { "model": "nkrdfsm:colored_lamp/cyan" },
+        "color=gray": { "model": "nkrdfsm:colored_lamp/gray" },
+        "color=green": { "model": "nkrdfsm:colored_lamp/green" },
+        "color=light_blue": { "model": "nkrdfsm:colored_lamp/lightBlue" },
+        "color=lime": { "model": "nkrdfsm:colored_lamp/lime" },
+        "color=magenta": { "model": "nkrdfsm:colored_lamp/magenta" },
+        "color=orange": { "model": "nkrdfsm:colored_lamp/orange" },
+        "color=pink": { "model": "nkrdfsm:colored_lamp/pink" },
+        "color=purple": { "model": "nkrdfsm:colored_lamp/purple" },
+        "color=red": { "model": "nkrdfsm:colored_lamp/red" },
+        "color=silver": { "model": "nkrdfsm:colored_lamp/silver" },
+        "color=white": { "model": "nkrdfsm:colored_lamp/white" },
+        "color=yellow": { "model": "nkrdfsm:colored_lamp/yellow" }
+    }
+}

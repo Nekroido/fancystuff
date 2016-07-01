@@ -35,4 +35,21 @@ tile.colored_stone_bricks.silver.name=Silver Stone Bricks
 tile.colored_stone_bricks.white.name=White Stone Bricks
 tile.colored_stone_bricks.yellow.name=Yellow Stone Bricks
 
+tile.colored_lamp.black.name=Black Lamp
+tile.colored_lamp.blue.name=Blue Lamp
+tile.colored_lamp.brown.name=Brown Lamp
+tile.colored_lamp.cyan.name=Cyan Lamp
+tile.colored_lamp.gray.name=Gray Lamp
+tile.colored_lamp.green.name=Green Lamp
+tile.colored_lamp.lightBlue.name=Light Blue Lamp
+tile.colored_lamp.lime.name=Lime Lamp
+tile.colored_lamp.magenta.name=Magenta Lamp
+tile.colored_lamp.orange.name=Orange Lamp
+tile.colored_lamp.pink.name=Pink Lamp
+tile.colored_lamp.purple.name=Purple Lamp
+tile.colored_lamp.red.name=Red Lamp
+tile.colored_lamp.silver.name=Silver Lamp
+tile.colored_lamp.white.name=White Lamp
+tile.colored_lamp.yellow.name=Yellow Lamp
+
 itemGroup.creativeTab=Nekroido's Fancy Stuff

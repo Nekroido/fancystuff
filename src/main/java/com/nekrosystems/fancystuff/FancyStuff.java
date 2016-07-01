@@ -3,6 +3,7 @@ package com.nekrosystems.fancystuff;
 import com.nekrosystems.fancystuff.events.MobDropsHandler;
 import com.nekrosystems.fancystuff.init.Crafting;
 import com.nekrosystems.fancystuff.init.FancyBlocks;
+import com.nekrosystems.fancystuff.init.FancyEntities;
 import com.nekrosystems.fancystuff.init.FancyItems;
 import com.nekrosystems.fancystuff.proxy.CommonProxy;
 
@@ -28,6 +29,7 @@ public class FancyStuff {
 		FancyItems.register();
 		FancyBlocks.init();
 		FancyBlocks.register();
+		FancyEntities.register();
 		Crafting.registeCrafting();
 	}
 

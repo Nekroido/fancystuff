@@ -8,6 +8,7 @@ import com.nekrosystems.fancystuff.FancyMaterial;
 import com.nekrosystems.fancystuff.FancyStuff;
 import com.nekrosystems.fancystuff.blocks.BlockColored;
 import com.nekrosystems.fancystuff.blocks.Chain;
+import com.nekrosystems.fancystuff.blocks.ColoredLamp;
 import com.nekrosystems.fancystuff.blocks.Rope;
 import com.nekrosystems.fancystuff.init.helpers.StringHelper;
 import com.nekrosystems.fancystuff.items.ItemColored;
@@ -26,6 +27,7 @@ public class FancyBlocks {
 	
 	public static BlockColored colored_stone;
 	public static BlockColored colored_stone_bricks;
+	public static ColoredLamp colored_lamp;
 
 	public static void init() {
 		chain = new Chain("chain")
@@ -39,6 +41,9 @@ public class FancyBlocks {
 
 		colored_stone_bricks = (BlockColored) new BlockColored("colored_stone_bricks")
 				.setCreativeTab(FancyStuff.creativeTab);
+
+		colored_lamp = (ColoredLamp) new ColoredLamp("colored_lamp")
+				.setCreativeTab(FancyStuff.creativeTab);
 	}
 
 	public static void register() {
@@ -48,6 +53,7 @@ public class FancyBlocks {
 		/** Colored blocks **/
 		GameRegistry.registerBlock(colored_stone, ItemColored.class, StringHelper.getUnlocalizedName(colored_stone));
 		GameRegistry.registerBlock(colored_stone_bricks, ItemColored.class, StringHelper.getUnlocalizedName(colored_stone_bricks));
+		GameRegistry.registerBlock(colored_lamp, ItemColored.class, StringHelper.getUnlocalizedName(colored_lamp));
 	}
 
 	public static void registerRenders() {
@@ -57,6 +63,7 @@ public class FancyBlocks {
 		/** Colored items **/
 		registerRenderColoredBlock(colored_stone);
 		registerRenderColoredBlock(colored_stone_bricks);
+		registerRenderColoredBlock(colored_lamp);
 	}
 
 	public static void registerRender(Block block) {

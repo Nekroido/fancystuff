@@ -28,6 +28,9 @@ public class Crafting {
 			
 			GameRegistry.addRecipe(new ItemStack(FancyBlocks.colored_stone_bricks, 4, i),
 					new Object[] { "XX", "XX", 'X', new ItemStack(FancyBlocks.colored_stone, 4, i) });
+			
+			GameRegistry.addRecipe(new ItemStack(FancyBlocks.colored_lamp, 8, i),
+					new Object[] { "XXX", "XYX", "XXX", 'X', new ItemStack(Blocks.stained_glass, 1, i), 'Y', Blocks.glowstone });
 		}
 	}
 

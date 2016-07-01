@@ -7,10 +7,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;
-import net.minecraftforge.client.model.ModelLoader;
 
 public class FancyItems {
-
 	public static void init() {
 	}
 
@@ -21,8 +19,8 @@ public class FancyItems {
 	}
 
 	public static void registerRender(Item item) {
-		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(
-				Config.MOD_ID + ":" + StringHelper.getUnlocalizedName(item), "inventory"));
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0,
+				new ModelResourceLocation(Config.MOD_ID + ":" + StringHelper.getUnlocalizedName(item), "inventory"));
 	}
 
 	public static void registerColoredItemRender(Item item, int index) {
